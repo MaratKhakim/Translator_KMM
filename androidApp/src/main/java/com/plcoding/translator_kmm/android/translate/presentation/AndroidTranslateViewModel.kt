@@ -1,9 +1,11 @@
-package com.plcoding.translator_kmm.translate.presentation
+package com.plcoding.translator_kmm.android.translate.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.plcoding.translator_kmm.translate.domain.history.HistoryDataSource
 import com.plcoding.translator_kmm.translate.domain.translate.Translate
+import com.plcoding.translator_kmm.translate.presentation.TranslateEvent
+import com.plcoding.translator_kmm.translate.presentation.TranslateViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
